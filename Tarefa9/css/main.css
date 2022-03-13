@@ -291,8 +291,8 @@
         padding: 0 40px;
         border-right: 1px solid #ddd;
     }
-    .news div: last-child {
-        border right: none;
+    .news div last-child {
+        border-right: none;
     }
     .news h3 {
         color: var(--blue);
