@@ -1,4 +1,4 @@
-const effects = document.getElementById("effects");
+const effects = document.getElementById("filter");
 const effectIntensity = document.getElementById("effectIntensity");
 
 const getFilter = () => effects.value ?? 'none' 
@@ -28,7 +28,5 @@ const setFilter = () => {
 
 effectIntensity.addEventListener("click", setFilter)
 effects.addEventListener("click", setFilter)
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
+effectIntensity.addEventListener("change", setFilter)
+effects.addEventListener("change", setFilter)
